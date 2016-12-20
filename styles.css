@@ -1,0 +1,71 @@
+*{
+    margin: 0;
+    padding: 0;
+    box-sizing: border-box;
+}
+body{
+    font-family: sans-serif;
+}
+.primaryNavigationContainer{
+    position: fixed;
+    width: 100%;
+    top: 0;
+    padding: 25px 80px;
+    height: 80px;
+    background: #222222;
+    z-index: 100;
+}
+.primaryNavigationContainer .logoContainer{
+    font-size: 1.4em;
+    font-weight: bold;
+    letter-spacing: 3px;
+    color: white;
+}
+.secondaryNavigation{
+    margin-top: 80px;
+    height: 100%;
+    width: 15%;
+    position: fixed;
+    left: 0;
+    background: #333333;
+    z-index: 100;
+}
+.secondaryNavigation .secondaryNavigationContainer{
+    padding: 30px;
+}
+.secondaryNavigation .secondaryNavigationContainer .secondaryNavigationList{
+    list-style: none;
+}
+.secondaryNavigation .secondaryNavigationContainer .secondaryNavigationList li {
+    padding: 10px 5px 8px 5px;
+    border-bottom: coral solid 3px;
+    margin-bottom: 20px;
+}
+.secondaryNavigation .secondaryNavigationContainer .secondaryNavigationList li a{
+    text-decoration: none;
+    color: whitesmoke;
+}
+.content{
+    position: fixed;
+    top: 100px;
+    left: 15%;
+    padding: 0px 10px 40px 20px;
+}
+.content .contentContainer{
+    max-height: 700px;
+    overflow: scroll;
+}
+.content .contentContainer h1{
+    font-size: 1.25em;
+    letter-spacing: 3px;
+    color: #444444;
+}
+.content .contentContainer .textContainer{
+    padding: 20px 0;
+    color: #333333;
+    font-size: 1.15em;
+}
+.content .contentContainer .textContainer p{
+    text-indent: 40px;
+    padding: 10px 0;
+}
